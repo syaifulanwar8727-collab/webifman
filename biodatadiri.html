@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biodata Diri</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#2193b0,#6dd5ed);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    width:900px;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    display:flex;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+    animation:muncul 1s;
+}
+
+@keyframes muncul{
+    from{
+        opacity:0;
+        transform:translateY(-30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.left{
+    width:35%;
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.left img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:6px solid white;
+    object-fit:cover;
+    transition:.5s;
+}
+
+.left img:hover{
+    transform:scale(1.1) rotate(5deg);
+}
+
+.left h2{
+    margin-top:20px;
+}
+
+.left p{
+    margin-top:10px;
+}
+
+.right{
+    width:65%;
+    padding:30px;
+}
+
+.right h1{
+    color:#0d6efd;
+    margin-bottom:20px;
+}
+
+table{
+    width:100%;
+}
+
+table td{
+    padding:8px;
+    font-size:17px;
+}
+
+.judul{
+    font-weight:bold;
+    width:170px;
+}
+
+.link{
+    margin-top:20px;
+}
+
+.link a{
+    text-decoration:none;
+    background:#0d6efd;
+    color:white;
+    padding:10px 18px;
+    border-radius:8px;
+    margin-right:10px;
+    display:inline-block;
+    transition:.4s;
+}
+
+.link a:hover{
+    background:#198754;
+    transform:translateY(-3px);
+}
+
+.kontak{
+    margin-top:25px;
+    background:#f5f5f5;
+    padding:20px;
+    border-radius:10px;
+}
+
+.kontak h3{
+    color:#0d6efd;
+    margin-bottom:10px;
+}
+
+.footer{
+    text-align:center;
+    margin-top:25px;
+    color:gray;
+    font-size:14px;
+}
+
+@media(max-width:768px){
+
+.container{
+    flex-direction:column;
+    width:95%;
+}
+
+.left,.right{
+    width:100%;
+}
+
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<div class="left">
+
+<img src="Syaiful Anwar.jpeg" alt="Foto Profil">
+
+<h2>Kartu Peserta/ID Peserta</h2>
+
+<p>Peserta Pemrograman Website TA 2026</p>
+
+</div>
+
+<div class="right">
+
+<h1>BIODATA DIRI</h1>
+
+<table>
+
+<tr>
+<td class="judul">Nama Lengkap</td>
+<td>: Syaiful Anwar</td>
+</tr>
+
+<tr>
+<td class="judul">Tempat, Tanggal Lahir</td>
+<td>: Kuala Kapuas, 26 Februari 1989</td>
+</tr>
+
+<tr>
+<td class="judul">Jenis Kelamin</td>
+<td>: Laki-laki</td>
+</tr>
+
+<tr>
+<td class="judul">Agama</td>
+<td>: Islam</td>
+</tr>
+
+<tr>
+<td class="judul">Alamat</td>
+<td>: Jl. A. Yani Km. 26 RT.001 RW.009 Kel. Landasan Ulin Timur Kec. Landasan Ulin Kota Banjarbaru Kalimantan Selatan</td>
+</tr>
+
+<tr>
+<td class="judul">Pendidikan</td>
+<td>: SMA Jurusan IPS </td>
+</tr>
+
+<tr>
+<td class="judul">Hobi</td>
+<td>: Sepakbola</td>
+</tr>
+
+<tr>
+<td class="judul">Cita-cita</td>
+<td>: Pemrogramer</td>
+</tr>
+
+</table>
+
+<div class="link">
+
+<a href="https://instagram.com/" target="_blank">bang__if</a>
+
+<a href="https://facebook.com/" target="_blank">none</a>
+
+<a href="https://github.com/" target="_blank">Syaiful Anwar</a>
+
+</div>
+
+<div class="kontak">
+
+<h3>Kontak Person</h3>
+
+<p><b>Email :</b> syaifulanwar8727@gmail.com</p>
+
+<p><b>No. HP :</b> 0822-7537-9391</p>
+
+</div>
+
+<div class="footer">
+
+Mabes TNI | PUSINFOLAHTA MABES TNI
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
